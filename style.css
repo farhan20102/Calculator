@@ -1,0 +1,157 @@
+html {
+    background: radial-gradient(circle, rgb(216, 212, 212), cyan);
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    font: bold 20px Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    font-size: 75px;
+    color: rgb(19, 3, 58);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header {
+    width: 60%;
+    margin-left: 300px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
+}
+
+#calculator {
+    padding: 20px 20px 20px 20px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: rgb(8, 224, 134);
+    box-shadow: 3px 5px 10px rgb(175, 255, 46);
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+
+.top,
+.keys {
+    overflow: hidden;
+}
+
+#screen {
+    margin-right: 35px;
+    text-align: right;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-shadow: 1px 1px 2px white;
+    color: blue;
+    float: right;
+    border-radius: 3px;
+    background: rgb(111, 255, 16);
+    height: 40px;
+    width: 212px;
+    box-shadow: inset 10px 10px 10px rgb(155, 255, 88);
+}
+
+#clear,
+.keys span {
+    float: left;
+    font-size: 17px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgb(82, 223, 0);
+    line-height: 36px;
+    text-align: center;
+    margin: 0 7px 11px 0;
+    color: rgb(38, 0, 134);
+    background: rgb(0, 141, 184);
+    width: 66px;
+    height: 36px;
+    top: 0;
+    position: relative;
+}
+
+.top,
+.keys {
+    overflow: hidden;
+}
+
+.keys span.operator {
+    background: rgb(0, 109, 76);
+    color: blanchedalmond;
+}
+
+.keys span.eval {
+    background: rgb(255, 33, 33);
+    color: blanchedalmond;
+    box-shadow: 0px 4px rgb(255, 136, 0);
+}
+
+.keys span.eval:active {
+    box-shadow: 0px 0px rgb(255, 136, 0);
+    top: 4px;
+}
+
+.keys span,
+#clear {
+    transition: all 0.2s ease;
+}
+
+.keys span.eval:hover {
+    background: rgb(255, 0, 0);
+    color: blanchedalmond;
+    box-shadow: 0px 4px rgb(255, 136, 0);
+}
+
+.keys span.eval:active {
+    box-shadow: 0px 0px rgb(255, 136, 0);
+    top: 4px;
+}
+
+#clear {
+    background: rgb(255, 117, 37);
+    color: purple;
+    box-shadow: 0px 4px rgb(224, 203, 7);
+}
+
+#clear:hover {
+    background: rgb(255, 94, 0);
+    color: purple;
+    box-shadow: 0px 4px rgb(224, 203, 7);
+}
+
+#clear:active {
+    box-shadow: 0px 0px rgb(224, 203, 7);
+    top: 4px;
+}
+
+.keys span {
+    color: rgb(38, 0, 134);
+    background: rgb(0, 141, 184);
+    box-shadow: 0px 4px rgb(82, 223, 0);
+}
+
+.keys span:active {
+    box-shadow: 0px 0px rgb(82, 223, 0);
+    top: 4px;
+}
+
+.keys span:hover {
+    color: rgb(48, 0, 168);
+    background: rgb(0, 195, 255);
+    box-shadow: 0px 4px rgb(82, 223, 0);
+}
+
+.keys span.operator:hover {
+    background: rgb(59, 255, 196);
+    color: rgb(48, 0, 168);
+}
+
+.keys span:active {
+    box-shadow: 0px 0px rgb(82, 223, 0);
+    top: 4px;
+}
